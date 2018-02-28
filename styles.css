@@ -1,0 +1,44 @@
+html {
+  height: 100vh;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+}
+.container-fluid {
+  position: absolute;
+  width: 640px;
+  height: 200px;
+  z-index: 15;
+  top: 40%;
+  left: 31%;
+  margin: -100px 0 0 -60px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+#title {
+  margin: 0px 0 60px 0px;
+  font-family: "Roboto Slab", serif;
+}
+.panel-body {
+  color: black;
+  height: auto;
+  width: auto;
+  font-family: "Roboto Slab", serif;
+}
+img {
+  width: 60px;
+  height: 60px;
+}
+.col-sm-4 {
+  padding: 5px 5px 5px 0;
+}
